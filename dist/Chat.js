@@ -26,6 +26,8 @@ const io = new socket_io_1.Server(httpServer, {
             "https://chat.zynoflixott.com",
             "http://chat.zynoflixott.com",
             "https://zynoflixott.com/",
+            "http://localhost:3001",
+            "https://zynoflixott-web.vercel.app",
         ],
     },
 });
