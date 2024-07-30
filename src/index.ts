@@ -8,7 +8,8 @@ import bodyParser from "body-parser";
 dotenv.config();
 
 const MONGODB_URI =
-  "mongodb+srv://gokul:UPw3fCb6kDmF5CsE@cluster0.klfb9oe.mongodb.net/ott?retryWrites=true&w=majority";
+  "mongodb+srv://infozynoflixott:8HRtuhJQM6mfOpt6@cluster0.vd91zsm.mongodb.net/ott?retryWrites=true&w=majority";
+// "mongodb+srv://gokul:UPw3fCb6kDmF5CsE@cluster0.klfb9oe.mongodb.net/ott?retryWrites=true&w=majority";
 mongoose.connect(MONGODB_URI, {
   // useNewUrlParser: true,
   // useUnifiedTopology: true,
